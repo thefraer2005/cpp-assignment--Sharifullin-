@@ -8,7 +8,7 @@ TEST(Hw05Tests, Test1)
     auto actual = hw05(input);
     EXPECT_EQ(actual, expected);
 }
-
+//
 TEST(Hw05Tests, Test2)
 {
     VecOfStr input{"Madam, in Eden, I'm Adam"};
