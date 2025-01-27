@@ -8,7 +8,7 @@ TEST(Hw04Tests, Test1)
     auto actual = hw04(arr, std::size(arr));
     EXPECT_EQ(actual, expected);
 }
-
+//
 TEST(Hw04Tests, Test2)
 {
     int arr[] = {0};
