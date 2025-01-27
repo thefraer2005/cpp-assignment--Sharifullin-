@@ -11,7 +11,7 @@ TEST(Hw06Tests, Test1)
     auto expected_seats = rows * seats_per_row;
     EXPECT_EQ(expected_seats, avail_seats);
 }
-
+//
 TEST(Hw06Tests, Test2)
 {
   auto rows = 5, seats_per_row = 15;
